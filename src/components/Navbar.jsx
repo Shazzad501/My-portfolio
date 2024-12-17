@@ -12,7 +12,7 @@ const Navbar = () => {
    <li><a>Contact</a></li>
   </>
   return (
-    <div className='sticky top-0 left-0 right-0 bg-gradient-to-tl from-[#1B1833] to-[#1C325B] text-gray-300 rounded-lg rounded-b-none'>
+    <div className='sticky top-0 left-0 right-0 z-50 text-white'>
       <div className="navbar">
         <div className="navbar-start">
           <a className="text-3xl font-bold">Shazzad Maruf</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
           className="btn bg-transparent font-bold text-xl hidden lg:flex text-white">Resume <span className='text-base'><FaDownload/></span></button>
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn bg-transparent hover:bg-transparent border-none lg:hidden">
-              <p className='font-bold text-2xl text-gray-300'><FiAlignJustify/></p>
+              <p className='font-bold text-2xl text-white'><FiAlignJustify/></p>
             </div>
             <ul
               tabIndex={0}
