@@ -12,7 +12,7 @@ const Navbar = () => {
    <li><a>Contact</a></li>
   </>
   return (
-    <div className='sticky top-0 left-0 right-0 z-50 text-white'>
+    <div className='text-white'>
       <div className="navbar">
         <div className="navbar-start">
           <a className="text-3xl font-bold">Shazzad Maruf</a>

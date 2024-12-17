@@ -31,7 +31,7 @@ const Hero = () => {
             loop
             animationData={heroLotti}
             play
-            className="w-full h-[400px]"
+            className="w-full h-[450px]"
           />
         </div>
       </div>
