@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
+import MySkills from '../components/MySkills';
 
 const MainLayouts = () => {
   return (
@@ -13,6 +14,7 @@ const MainLayouts = () => {
       <Hero></Hero>
       </div>
       <About></About>
+      <MySkills></MySkills>
     </div>
   );
 };
