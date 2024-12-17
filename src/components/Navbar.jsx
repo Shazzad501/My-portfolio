@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaDownload } from 'react-icons/fa';
+import { FaDownload, FaHamburger } from 'react-icons/fa';
+import { FiAlignJustify } from 'react-icons/fi';
 
 const Navbar = () => {
   const links = <>
@@ -11,8 +12,8 @@ const Navbar = () => {
    <li><a>Contact</a></li>
   </>
   return (
-    <div>
-      <div className="navbar bg-base-100">
+    <div className='sticky top-0 left-0 right-0 bg-gradient-to-tl from-[#1B1833] to-[#1C325B] text-gray-300 rounded-lg rounded-b-none'>
+      <div className="navbar">
         <div className="navbar-start">
           <a className="text-3xl font-bold">Shazzad Maruf</a>
         </div>
@@ -23,25 +24,14 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <button 
-          className="btn font-bold text-xl hidden lg:flex">Resume <span className='text-base'><FaDownload/></span></button>
+          className="btn bg-transparent font-bold text-xl hidden lg:flex text-white">Resume <span className='text-base'><FaDownload/></span></button>
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn bg-transparent hover:bg-transparent border-none lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
+              <p className='font-bold text-2xl text-gray-300'><FiAlignJustify/></p>
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-bold">
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-bold text-black">
               {links}
             </ul>
           </div>
