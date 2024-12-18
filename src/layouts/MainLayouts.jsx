@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import MySkills from '../components/MySkills';
 import MyProject from '../components/MyProject';
+import Education from '../components/Education';
 
 const MainLayouts = () => {
   return (
@@ -17,6 +18,7 @@ const MainLayouts = () => {
       <About></About>
       <MySkills></MySkills>
       <MyProject></MyProject>
+      <Education></Education>
     </div>
   );
 };

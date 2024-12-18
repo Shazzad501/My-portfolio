@@ -11,7 +11,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const MyProject = () => {
   return (
-    <div id='project' className='text-[#060414] py-10 max-w-7xl mx-auto'>
+    <div id='project' className='text-[#060414] py-16 max-w-7xl mx-auto px-5'>
       <h2 
       className='font-extrabold text-6xl flex items-center justify-center'>
         <span>My Pr</span>
