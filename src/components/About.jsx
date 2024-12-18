@@ -4,7 +4,8 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const About = () => {
   return (
-    <div id='about' className='max-w-7xl mx-auto flex flex-col gap-5 lg:flex-row mt-14 text-[#060414]'>
+   <div className='bg-base-200 py-12'>
+     <div id='about' className='max-w-7xl mx-auto flex flex-col gap-5 lg:flex-row text-[#060414]'>
       <div className='lg:w-1/2 h-[500px] p-10'>
         <img 
         className='w-full h-full object-cover rounded-md'
@@ -34,6 +35,7 @@ const About = () => {
       </p>
       </div>
     </div>
+   </div>
   );
 };
 

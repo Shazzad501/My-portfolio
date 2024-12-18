@@ -9,7 +9,7 @@ const Navbar = () => {
    <li><a href='#skills'>Skills</a></li>
    <li><a href='#project'>Projects</a></li>
    <li><a href='#education'>Education</a></li>
-   <li><a href=''>Contact</a></li>
+   <li><a href='#contact'>Contact</a></li>
   </>
   return (
     <div className='text-white'>

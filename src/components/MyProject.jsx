@@ -11,6 +11,7 @@ import { FaGithub } from 'react-icons/fa';
 
 const MyProject = () => {
   return (
+    <div className='bg-base-200'>
     <div id='project' className='text-[#060414] py-16 max-w-7xl mx-auto px-5'>
       <h2 
       className='font-extrabold text-6xl flex items-center justify-center'>
@@ -117,6 +118,7 @@ const MyProject = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
