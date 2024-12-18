@@ -6,6 +6,7 @@ import MySkills from '../components/MySkills';
 import MyProject from '../components/MyProject';
 import Education from '../components/Education';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const MainLayouts = () => {
   return (
@@ -21,6 +22,7 @@ const MainLayouts = () => {
       <MyProject></MyProject>
       <Education></Education>
       <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 };
