@@ -4,16 +4,16 @@ import { FiAlignJustify } from 'react-icons/fi';
 
 const Navbar = () => {
   const links = <>
-   <li><a>Home</a></li>            
-   <li><a>About</a></li>
-   <li><a>Skills</a></li>
-   <li><a>Projects</a></li>
-   <li><a>Education</a></li>
-   <li><a>Contact</a></li>
+   <li><a href='#home'>Home</a></li>            
+   <li><a href='#about'>About</a></li>
+   <li><a href='#skills'>Skills</a></li>
+   <li><a href='#project'>Projects</a></li>
+   <li><a href=''>Education</a></li>
+   <li><a href=''>Contact</a></li>
   </>
   return (
     <div className='text-white'>
-      <div className="navbar">
+      <div className="navbar px-10">
         <div className="navbar-start">
           <a className="text-3xl font-bold">Shazzad Maruf</a>
         </div>

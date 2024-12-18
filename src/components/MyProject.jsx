@@ -1,0 +1,124 @@
+import React from 'react';
+import fireO from '../assets/fire-o-icon.png'
+import adventure from '../assets/adventure-travel.png'
+import jobPortal from '../assets/job-portal.png'
+import jobPortal2 from '../assets/job-portal-2.png'
+import movieLover from '../assets/movie-lover.png'
+import movieLover2 from '../assets/movie-lover-2.png'
+import { Link } from 'react-router-dom';
+import { LuTvMinimalPlay } from 'react-icons/lu';
+import { FaGithub } from 'react-icons/fa';
+
+const MyProject = () => {
+  return (
+    <div id='project' className='text-[#060414] py-10 max-w-7xl mx-auto'>
+      <h2 
+      className='font-extrabold text-6xl flex items-center justify-center'>
+        <span>My Pr</span>
+        <span>
+          <img
+          className='w-9 h-8 -mt-2' 
+          src={fireO} 
+          alt="" />
+          </span>
+        <span>ject</span>
+      </h2>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
+
+        {/* project 1 */}
+        <div className='shadow-sm shadow-[#1B1833] rounded-md py-4 px-2 '>
+          <div className='flex h-[200px]'>
+            <img 
+            className='w-1/2 h-full object-cover rounded-t-md'
+            src={movieLover} alt="" />
+            <img 
+            className='w-1/2 h-full object-cover rounded-t-md'
+            src={movieLover2} alt="" />
+          </div>
+          <div className='flex flex-col gap-3 mt-5'>
+          <h3 className='font-bold text-2xl'>Movie Portal Website</h3>
+          <p className='font-bold text-lg text-gray-500'>This is a Full Stack Movie Portal Website.You also can login and logout to our website and also post articles and read articles. For full information visit github.</p>
+          <p className='font-bold text-xl'>Tech Used :- React; Firebase; ExpressJs;
+             MongoDB; TailwindCss; ReactRouter</p>
+          <div className='flex justify-between items-center'>
+            <Link
+            to='https://movie-lover-a62ea.web.app/' 
+            target='_blank'
+            className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-br from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
+              <span><LuTvMinimalPlay/></span><span>Live Preview</span>
+            </Link>
+            <Link 
+            to='https://github.com/Shazzad501/Movie-portal'
+            target='_blank'
+            className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
+              <span><FaGithub/></span><span>View Github</span>
+            </Link>
+          </div>
+          </div>
+        </div>
+
+        {/* project 2 */}
+        <div className='shadow-sm shadow-[#1B1833] rounded-md py-4 px-2 '>
+          <div className='flex h-[200px]'>
+            <img 
+            className='w-1/2 h-full object-cover rounded-t-md'
+            src={jobPortal} alt="" />
+            <img 
+            className='w-1/2 h-full object-cover rounded-t-md'
+            src={jobPortal2} alt="" />
+          </div>
+          <div className='flex flex-col gap-3 mt-5'>
+          <h3 className='font-bold text-2xl'>Job Portal Website</h3>
+          <p className='font-bold text-lg text-gray-500'>It's a Full Stack Job Portal Website.You also can login and logout to our website and also post and read articles. You create a job and also apply a job. For full
+             info visit github.</p>
+          <p className='font-bold text-xl'>Tech Used :- React; Firebase; ExpressJs; MongoDB; JWT; TailwindCss; ReactRouter</p>
+          <div className='flex justify-between items-center'>
+            <Link
+            to='https://job-portal-cb309.web.app/' 
+            target='_blank'
+            className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-br from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
+              <span><LuTvMinimalPlay/></span><span>Live Preview</span>
+            </Link>
+            <Link 
+            to='https://github.com/Shazzad501/job-portal-web'
+            target='_blank'
+            className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
+              <span><FaGithub/></span><span>View Github</span>
+            </Link>
+          </div>
+          </div>
+        </div>
+
+        {/* project 3 */}
+        <div className='shadow-sm shadow-[#1B1833] rounded-md py-4 px-2 '>
+          <div className='flex h-[200px]'>
+            <img 
+            className='w-full h-full object-cover rounded-t-md'
+            src={adventure} alt="" />
+          </div>
+          <div className='flex flex-col gap-3 mt-5'>
+          <h3 className='font-bold text-2xl'>Adventure Website</h3>
+          <p className='font-bold text-lg text-gray-500'>This is a only font end Adventure Travel Website.You also can login and logout to our website and read articles. For full information visit github.</p>
+          <p className='font-bold text-xl'>Tech Used :- <br />React; Firebase; TailwindCss; ReactRouter</p>
+          <div className='flex justify-between items-center'>
+            <Link
+            to='https://adventure-travel-7268f.web.app/adventure/Mountain%20Treks' 
+            target='_blank'
+            className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-br from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
+              <span><LuTvMinimalPlay/></span><span>Live Preview</span>
+            </Link>
+            <Link 
+            to='https://github.com/Shazzad501/Adventure-experiences'
+            target='_blank'
+            className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
+              <span><FaGithub/></span><span>View Github</span>
+            </Link>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MyProject;

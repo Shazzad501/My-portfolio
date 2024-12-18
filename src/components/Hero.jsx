@@ -5,8 +5,8 @@ import Lottie from 'react-lottie-player';
 
 const Hero = () => {
   return (
-    <div>
-      <div className='max-w-7xl mx-auto flex flex-col md:flex-row gap-5 text-white py-12'>
+    <div id='home'>
+      <div className='max-w-7xl px-5 md:px-10 mx-auto flex flex-col md:flex-row gap-5 text-white py-12'>
         <div className='md:w-1/2 flex flex-col gap-2 justify-center'>
           <h1 className='font-bold text-5xl'>Hi, I'm Shazzad Maruf</h1>
           <h2 className="text-4xl font-bold text-white">

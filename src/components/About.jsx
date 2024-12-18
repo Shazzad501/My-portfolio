@@ -4,14 +4,14 @@ import { Typewriter } from 'react-simple-typewriter';
 
 const About = () => {
   return (
-    <div className='max-w-7xl mx-auto flex flex-col gap-5 md:flex-row mt-14 text-[#060414]'>
-      <div className='md:w-1/2 h-[500px] p-10'>
+    <div id='about' className='max-w-7xl mx-auto flex flex-col gap-5 lg:flex-row mt-14 text-[#060414]'>
+      <div className='lg:w-1/2 h-[500px] p-10'>
         <img 
         className='w-full h-full object-cover rounded-md'
         src={me} 
         alt="" />
       </div>
-      <div className='md:w-1/2 py-10 flex flex-col justify-center'>
+      <div className='lg:w-1/2 px-5 py-10 flex flex-col justify-center md:items-center lg:items-start'>
       <h2 className='font-extrabold text-5xl'>About Me</h2>
       <h3 className='font-bold text-2xl'>I'm Available For</h3>
       <p className='font-bold text-2xl text-[#2c2272]'>
