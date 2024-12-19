@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaDownload, FaHamburger } from 'react-icons/fa';
 import { FiAlignJustify } from 'react-icons/fi';
+import resume from '../assets/Maruf.pdf'
 
 const Navbar = () => {
   const links = <>
@@ -23,8 +24,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <a href={resume} download=''>
           <button 
-          className="btn bg-transparent font-bold text-xl hidden lg:flex text-white">Resume <span className='text-base'><FaDownload/></span></button>
+          className="btn bg-transparent font-bold text-xl hidden lg:flex text-white hover:bg-transparent">Resume <span className='text-base'><FaDownload/></span></button>
+          </a>
           <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn bg-transparent hover:bg-transparent border-none lg:hidden">
               <p className='font-bold text-2xl text-white'><FiAlignJustify/></p>

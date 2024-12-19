@@ -4,13 +4,16 @@ const Education = () => {
     <div id='education'>
       <section className="p-5 md:p-16 text-[#060414]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-5xl font-extrabold text-center flex justify-center mb-6">
-          <span
-          className='text-7xl text-[#0b081f]'> 
-            E
-          </span>
-          <span>ducational <span className='text-7xl text-[#0b081f]'>Q</span>ualifications</span>
-          </h2>
+        <div className="text-5xl font-extrabold px-5 flex flex-wrap gap-2 items-center justify-center mb-6">
+          <div>
+          <span className='text-7xl text-[#0b081f]'>E</span>
+          <span>ducational</span> 
+          </div>
+          <div>
+          <span className='text-7xl text-[#0b081f]'>Q</span>
+          <span>ualifications</span>
+          </div>
+          </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Education Item */}

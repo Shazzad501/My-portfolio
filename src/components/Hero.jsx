@@ -2,6 +2,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import heroLotti from '../assets/hero-lotti.json'
 import Lottie from 'react-lottie-player';
+import resume from '../assets/Maruf.pdf'
 
 const Hero = () => {
   return (
@@ -12,8 +13,8 @@ const Hero = () => {
           <h2 className="text-4xl font-bold text-white">
               <Typewriter
                 words={[
-                  "I'm a MERN Stack Developer",
-                  `I'm a Full Stack Developer`,
+                  "I'm a React Developer",
+                  `I'm a Front_End Developer`,
                 ]}
                 loop={false}
                 cursor
@@ -24,7 +25,9 @@ const Hero = () => {
               />
           </h2>
           <p className='font-bold text-xl text-gray-400'>Hi there! I'm a Web Developer who specializes in the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. I would like to creating websites and applications that look amaizing and work smoothly.</p>
+          <a href={resume} download=''>
           <button className='w-[170px] btn bg-transparent text-white border-2 rounded-lg rounded-t-none text-xl font-bold hover:bg-white hover:text-[#1B1833] hover:border-none mt-5'>Download Resume</button>
+          </a>
         </div>
         <div className='md:w-1/2'>
         <Lottie
