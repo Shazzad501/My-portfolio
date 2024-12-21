@@ -13,8 +13,8 @@ const Hero = () => {
           <h2 className="text-4xl font-bold text-white">
               <Typewriter
                 words={[
-                  "I'm a React Developer",
-                  `I'm a Front_End Developer`,
+                  "I'm a MERN Stack Developer",
+                  `I'm a Full Stack Developer`,
                 ]}
                 loop={false}
                 cursor

@@ -18,8 +18,8 @@ const About = () => {
       <p className='font-bold text-2xl text-[#2c2272]'>
       <Typewriter
                 words={[
-                  `React Development Porjects`,
-                  "Front_End Porjects",
+                  `MERN Stack Porjects`,
+                  "Full Stack Porjects",
                 ]}
                 loop={false}
                 cursor
