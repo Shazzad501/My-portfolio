@@ -1,6 +1,6 @@
 import React from 'react';
 import fireO from '../assets/fire-o-icon.png'
-import adventure from '../assets/adventure-travel.png'
+import service from '../assets/service.png'
 import jobPortal from '../assets/job-portal.png'
 import jobPortal2 from '../assets/job-portal-2.png'
 import movieLover from '../assets/movie-lover.png'
@@ -41,7 +41,7 @@ const MyProject = () => {
           <p className='font-bold text-lg text-gray-500'>This is a Full Stack Movie Portal Website.You also can login and logout to our website and also post articles and read articles. For full information visit github.</p>
           <p className='font-bold text-xl'>Tech Used :- React; Firebase; ExpressJs;
              MongoDB; TailwindCss; ReactRouter</p>
-          <div className='flex justify-between items-center'>
+          <div className='flex mt-14 justify-between items-center'>
             <Link
             to='https://movie-lover-a62ea.web.app/' 
             target='_blank'
@@ -73,7 +73,7 @@ const MyProject = () => {
           <p className='font-bold text-lg text-gray-500'>It's a Full Stack Job Portal Website.You also can login and logout to our website and also post and read articles. You create a job and also apply a job. For full
              info visit github.</p>
           <p className='font-bold text-xl'>Tech Used :- React; Firebase; ExpressJs; MongoDB; JWT; TailwindCss; ReactRouter</p>
-          <div className='flex justify-between items-center'>
+          <div className='flex mt-14 justify-between items-center'>
             <Link
             to='https://job-portal-cb309.web.app/' 
             target='_blank'
@@ -95,21 +95,21 @@ const MyProject = () => {
           <div className='flex h-[200px]'>
             <img 
             className='w-full h-full object-cover rounded-t-md'
-            src={adventure} alt="" />
+            src={service} alt="" />
           </div>
           <div className='flex flex-col gap-3 mt-5'>
-          <h3 className='font-bold text-2xl'>Adventure Website</h3>
-          <p className='font-bold text-lg text-gray-500'>This is a only font end Adventure Travel Website.You also can login and logout to our website and read articles. For full information visit github.</p>
-          <p className='font-bold text-xl'>Tech Used :- <br />React; Firebase; TailwindCss; ReactRouter</p>
+          <h3 className='font-bold text-2xl'>Service Review Website</h3>
+          <p className='font-bold text-lg text-gray-500'>This is an amazing service provider website where you can access a variety of services. You can visit individual service pages, rate services, and even add, update, or delete your own services. Additionally, you can manage your posted reviews.</p>
+          <p className='font-bold text-xl'>Tech Used :-React; Firebase; MongoDB; JWT; Express;  TailwindCss; ReactRouter; Axios</p>
           <div className='flex justify-between items-center'>
             <Link
-            to='https://adventure-travel-7268f.web.app/adventure/Mountain%20Treks' 
+            to='https://service-review-5ac25.web.app/' 
             target='_blank'
             className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-br from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
               <span><LuTvMinimalPlay/></span><span>Live Preview</span>
             </Link>
             <Link 
-            to='https://github.com/Shazzad501/Adventure-experiences'
+            to='https://github.com/Shazzad501/Service-client'
             target='_blank'
             className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
               <span><FaGithub/></span><span>View Github</span>
