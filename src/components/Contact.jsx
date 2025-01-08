@@ -60,8 +60,8 @@ const Contact = () => {
       <div id="contact" className="py-14 px-5 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {/* Form Section */}
-          <div className="px-10 bg-gradient-to-tr from-[#1B1833] to-[#1C325B] py-10 rounded-lg">
-            <form onSubmit={handleContact} className="flex flex-col gap-4 text-white">
+          <div className="px-10 shadow-md shadow-[#2d2a47] py-10 rounded-lg">
+            <form onSubmit={handleContact} className="flex flex-col gap-4 text-[#191635]">
               <div className="flex justify-center">
                 <label className="font-extrabold text-5xl">Contact With Me</label>
               </div>
@@ -104,7 +104,7 @@ const Contact = () => {
               <div className="flex items-center justify-center">
                 <button
                   type="submit"
-                  className="btn mt-3 bg-transparent border-2 rounded-b-none border-white rounded-md text-white font-bold text-xl hover:bg-white hover:text-black"
+                  className="btn mt-3 bg-transparent border-2 rounded-b-none border-[#342f61] rounded-md text-[#191635] font-bold text-xl hover:bg-white hover:text-black"
                   disabled={isSending}
                 >
                   {isSending ? "Sending..." : "Send Message"}

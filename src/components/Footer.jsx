@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -10,6 +10,7 @@ const Footer = () => {
         <Link to='https://github.com/Shazzad501' target='_blank' className='font-bold text-3xl'><FaGithub/></Link>
         <Link to='https://www.linkedin.com/in/md-maruf-162799255/' target='_blank' className='font-bold text-3xl'><FaLinkedin/></Link>
         <Link to='https://x.com/SMaruf3950' target='_blank' className='font-bold text-3xl'><FaTwitter/></Link>
+        <Link to='mailto:assazzad501@gmail.com' target='_blank' className='font-bold text-3xl'><FaEnvelope/></Link>
       </div>
       <p className='font-bold text-xl'>Copyright © {new Date().getFullYear()} - All right reserved by Maruf</p>
     </div>
