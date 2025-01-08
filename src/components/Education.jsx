@@ -1,3 +1,8 @@
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 
 const Education = () => {
   return (
@@ -15,29 +20,99 @@ const Education = () => {
           </div>
           </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Education Item */}
-          <div className="card bg-base-100 p-4 border shadow-sm shadow-[#1B1833]">
-            <div className="card-body">
-              <h3 className="text-xl font-semibold">Secondary School Certificate</h3>
-              <p className="text-md font-bold text-gray-600">Darmapur Amin Uddin High School | 2019 - 2020</p>
-              <p className="mt-2 font-bold text-base text-gray-500">
-               Dept: Science; Result: GPA-3.89 (out of 5); Board: Comilla
-              </p>
+          <VerticalTimeline>
+        {/* Educational Item 1 */}
+        <VerticalTimelineElement
+          date="2020 - 2024"
+          contentStyle={{ background: "#1C325B", color: "#000000" }}
+          contentArrowStyle={{ borderRight: "7px solid #1C325B" }}
+          iconStyle={{ background: "#1C325B", color: "#fff" }}
+          icon={
+            <div className="flex justify-center items-center w-full h-full">
+              <img
+                src="https://img.icons8.com/?size=100&id=wogrNmTvt9qn&format=png"
+                alt="Bachelor Icon"
+                className="w-16 h-16 object-contain"
+              />
             </div>
-          </div>
+          }
+        >
+          <h3 className="text-[#ffffff] text-[20px] font-bold">
+            Diploma in Engineering
+          </h3>
+          <p className="text-[#b8b6b6] text-[16px] font-semibold mb-4">
+            Institute of Computer Science & Technology (ICST)
+          </p>
+          <ul className="list-disc ml-5 space-y-2">
+            <li className="text-[#b8b6b6] text-[14px]">
+              Computer Science and Technology <br />
+              Projected on 2024 with CGPA: 3.5 out of 4.00
+            </li>
+          </ul>
+        </VerticalTimelineElement>
 
-          {/* Education Item */}
-          <div className="card bg-base-100 p-4 border shadow-sm shadow-[#1B1833]">
-            <div className="card-body">
-              <h3 className="text-xl font-semibold">Diploma in Computer Science & Technology</h3>
-              <p className="text-md font-bold text-gray-600">Institute of Computer Science & Technology | 2020-2024</p>
-              <p className="mt-2 font-bold text-base text-gray-500">
-                Dept: CST; Result: 3.5(Projected); Board: BTEB;
-              </p>
+        {/* Educational Item 2
+        <VerticalTimelineElement
+          date="2018 - 2019"
+          contentStyle={{ background: "#E8EAF6", color: "#3F51B5" }}
+          contentArrowStyle={{ borderRight: "7px solid #3F51B5" }}
+          iconStyle={{ background: "#3F51B5", color: "#fff" }}
+          icon={
+            <div className="flex justify-center items-center w-full h-full">
+              <img
+                src="https://img.icons8.com/?size=100&id=81348&format=png"
+                alt="HSC Icon"
+                className="w-16 h-16 object-contain"
+              />
             </div>
-          </div>
-        </div>
+          }
+        >
+          <h3 className="text-[#3F51B5] text-[20px] font-bold">
+            Higher Secondary Certificate
+          </h3>
+          <p className="text-[#303F9F] text-[16px] font-semibold mb-4">
+            Comilla Govt. Women’s College
+          </p>
+          <ul className="list-disc ml-5 space-y-2">
+            <li className="text-[#303F9F] text-[14px]">
+              HSC in Science <br />
+              Completed in 2019
+            </li>
+          </ul>
+        </VerticalTimelineElement> */}
+
+        {/* Educational Item 3 */}
+        <VerticalTimelineElement
+          date="2019 - 2020"
+          contentStyle={{ background: "#D9DFC6", color: "#0a1831" }}
+          contentArrowStyle={{ borderRight: "7px solid #D9DFC6" }}
+          iconStyle={{ background: "#D9DFC6", color: "#fff" }}
+          icon={
+            <div className="flex justify-center items-center w-full h-full">
+              <img
+                src="https://img.icons8.com/?size=100&id=RWH5eUW9Vr7f&format=png"
+                alt="SSC Icon"
+                className="w-16 h-16 object-contain"
+              />
+            </div>
+          }
+        >
+          <h3 className="text-[#0a1831] text-[20px] font-bold">
+            Secondary School Certificate
+          </h3>
+          <p className="text-[#1C325B] text-[16px] font-semibold mb-4">
+            Dharmapur Amin Uddin High School
+          </p>
+          <ul className="list-disc ml-5 space-y-2">
+            <li className="text-[#1C325B] text-[14px]">
+              SSC in Science
+            </li>
+            <li className="text-[#1C325B] text-[14px]">
+              Completed in 2020
+            </li>
+          </ul>
+        </VerticalTimelineElement>
+      </VerticalTimeline>
       </div>
     </section>
     </div>
