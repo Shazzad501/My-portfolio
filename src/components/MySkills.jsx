@@ -1,23 +1,87 @@
 
-import html from '../assets/html.jpg'
+import html from '../assets/html.png'
 import css from '../assets/css.png'
-import js from '../assets/js.png'
-import react from '../assets/react.jpg'
+import js from '../assets/javascript.png'
+import react from '../assets/react.png'
 import bootstrap from '../assets/bootstrap.png'
-import tailwind from '../assets/tailwind.jpg'
-import express from '../assets/express.png'
-import node from '../assets/node.png'
-import mongo from '../assets/mongo.png'
+import tailwind from '../assets/tailwindcss.png'
+import express from '../assets/expressjs.png'
+import node from '../assets/nodejs.png'
+import mongo from '../assets/mongodb.png'
 import git from '../assets/git.png'
 import github from '../assets/github.png'
-import programmingC from '../assets/programmin-c.jpg'
+import programmingC from '../assets/programingc.png'
 import vscode from '../assets/vscode.png'
 import firebase from '../assets/firebase.png'
+import stripe from '../assets/stripe.png'
 import k from '../assets/k.png'
 import Marquee from 'react-fast-marquee'
 
+const skills = [
+  {
+    name:'HTML5',
+    img: html,
+  },
+  {
+    name:'CSS3',
+    img: css,
+  },
+  {
+    name:'Java Script',
+    img: js,
+  },
+  {
+    name: 'React',
+    img: react,
+  },
+  {
+    name:'Express Js',
+    img: express,
+  },
+  {
+    name:'Node Js',
+    img: node,
+  },
+  {
+    name: 'MongoDB',
+    img: mongo,
+  },
+  {
+    name: 'Vs Code',
+    img: vscode,
+  },
+  {
+    name: 'Programming C',
+    img: programmingC,
+  },
+  {
+    name: 'Github',
+    img: github,
+  },
+  {
+    name: 'Firbase',
+    img: firebase,
+  },
+  {
+    name: 'Tailwind',
+    img: tailwind,
+  },
+  {
+    name: 'Bootstrap',
+    img: bootstrap,
+  },
+  {
+    name: 'Git',
+    img: git,
+  },
+  {
+    name: 'Stripe',
+    img: stripe,
+  },
+]
 
 const MySkills = () => {
+
   return (
     <div id='skills' className='text-[#060414] flex flex-col gap-8 items-center overflow-hidden py-16'>
       <div>
@@ -26,24 +90,23 @@ const MySkills = () => {
       <div>
         <Marquee>
           <div className='flex flex-col gap-7'>
-          <div className='flex justify-center items-center'>
-              <img src={html} alt=""  className='w-28 h-20 rounded-md'/>
-              <img src={css} alt=""  className='w-24 h-20 rounded-md'/>
-              <img src={js} alt=""  className='w-20 h-16 rounded-md ml-7'/>
-              <img src={node} alt=""  className='w-20 h-[70px] rounded-md ml-8'/>
-              <img src={react} alt=""  className='w-24 h-20 rounded-md ml-6'/>
-              <img src={express} alt=""  className='w-24 h-20 rounded-md ml-2'/>
-              <img src={mongo} alt=""  className='w-16 h-16 rounded-md ml-7'/>
-              <img src={vscode} alt=""  className='w-20 h-22 rounded-md ml-7'/>
-              <img src={programmingC} alt=""  className='w-[75px] h-16 rounded-md ml-5'/>
+          <div className='flex justify-center items-center gap-5'>
+          {
+            skills.slice(0, 9).map((skill, idx) => (
+              <div key={idx} className='flex flex-row gap-5'>
+                <img src={skill.img} alt={skill.name} className='w-[72px] h-[72px] rounded-md'/>
+              </div>
+            ))
+          }
           </div>
-          <div className='flex justify-center items-center'>
-              <img src={github} alt=""  className='w-20 h-[70px] rounded-md'/>
-              <img src={firebase} alt=""  className='w-24 h-20 rounded-md ml-5'/>
-              <img src={tailwind} alt=""  className='w-20 h-[70px] rounded-md ml-5'/>
-              <img src={bootstrap} alt=""  className='w-20 h-20 rounded-md ml-10'/>
-              <img src={git} alt=""  className='w-24 h-20 rounded-md ml-6'/>
-              
+          <div className='flex justify-center items-center gap-5'>
+          {
+            skills.slice(10, 16).map((skill, idx) => (
+              <div key={idx} className='flex flex-row gap-5'>
+                <img src={skill.img} alt={skill.name} className='w-[72px] h-[72px] rounded-md'/>
+              </div>
+            ))
+          }
           </div>
           </div>
         </Marquee>

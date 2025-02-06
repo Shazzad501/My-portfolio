@@ -1,12 +1,12 @@
 import React from 'react';
-import me from '../assets/me.jpg'
+import me from '../assets/me.png'
 import { Typewriter } from 'react-simple-typewriter';
 
 const About = () => {
   return (
    <div className='bg-base-200 py-12'>
      <div id='about' className='max-w-7xl mx-auto flex flex-col gap-5 lg:flex-row text-[#060414]'>
-      <div className='lg:w-1/2 h-[500px] p-10'>
+      <div className='lg:w-1/2 h-auto p-10'>
         <img 
         className='w-full h-full object-cover rounded-md'
         src={me} 
@@ -18,8 +18,8 @@ const About = () => {
       <p className='font-bold text-2xl text-[#2c2272]'>
       <Typewriter
                 words={[
-                  `MERN Stack Porjects`,
-                  "Full Stack Porjects",
+                  `Frontend Development`,
+                  "Frontend Porjects",
                 ]}
                 loop={false}
                 cursor
@@ -29,9 +29,9 @@ const About = () => {
                 delaySpeed={1000}
       />
       </p>
-      <p className='font-bold text-xl mt-4'>👋 Hey there!! I am a passionate MERN stack developer with a knack for creating dynamic and efficient web applications.<br className='hidden md:block' /> With expertise in MongoDB, Express.js, React, and Node.js, I enjoy building full-stack solutions that are not only scalable but also user-friendly and intuitive. My journey in web development has been driven by a deep love for problem-solving and a commitment to crafting meaningful digital experiences.
-      <br className='hidden md:block' />
-      I’m excited about the future of technology and look forward to collaborating on projects that push the boundaries of what’s possible. Let’s connect and create something extraordinary together!
+      <p className='font-bold text-xl mt-4'>👋 Hey there! I’m a passionate frontend-focused MERN stack developer with a strong expertise in React and Tailwind CSS. I specialize in crafting scalable, high-performance, and visually stunning web applications that offer seamless user experiences.
+      With a deep understanding of modern frontend development, I love transforming ideas into intuitive and interactive digital solutions. My journey in web development is fueled by a commitment to innovation, efficiency, and user-centric design.
+      I’m always excited to explore new technologies and collaborate on projects that push the boundaries of frontend excellence. Let’s connect and build something extraordinary together! 🚀
       </p>
       </div>
     </div>

@@ -23,8 +23,8 @@ const Education = () => {
           <VerticalTimeline>
         {/* Educational Item 1 */}
         <VerticalTimelineElement
-          date="2020 - 2024"
-          contentStyle={{ background: "#1C325B", color: "#000000" }}
+          date="2020 - 2025"
+          contentStyle={{ background: "#1C325B", color: "#1D1616" }}
           contentArrowStyle={{ borderRight: "7px solid #1C325B" }}
           iconStyle={{ background: "#1C325B", color: "#fff" }}
           icon={
@@ -46,7 +46,7 @@ const Education = () => {
           <ul className="list-disc ml-5 space-y-2">
             <li className="text-[#b8b6b6] text-[14px]">
               Computer Science and Technology <br />
-              Projected on 2024 with CGPA: 3.5 out of 4.00
+              Projected on 2025 with CGPA: 3.5 out of 4.00
             </li>
           </ul>
         </VerticalTimelineElement>
@@ -84,7 +84,7 @@ const Education = () => {
         {/* Educational Item 3 */}
         <VerticalTimelineElement
           date="2019 - 2020"
-          contentStyle={{ background: "#D9DFC6", color: "#0a1831" }}
+          contentStyle={{ background: "#D9DFC6", color: "#1D1616" }}
           contentArrowStyle={{ borderRight: "7px solid #D9DFC6" }}
           iconStyle={{ background: "#D9DFC6", color: "#fff" }}
           icon={

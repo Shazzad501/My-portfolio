@@ -1,8 +1,8 @@
 import React from 'react';
 import fireO from '../assets/fire-o-icon.png'
 import service from '../assets/service.png'
-import jobPortal from '../assets/job-portal.png'
-import jobPortal2 from '../assets/job-portal-2.png'
+import microtask from '../assets/microtask.png'
+import microworker from '../assets/microworker.png'
 import movieLover from '../assets/movie-lover.png'
 import movieLover2 from '../assets/movie-lover-2.png'
 import { Link } from 'react-router-dom';
@@ -62,17 +62,17 @@ const MyProject = () => {
         <div className='shadow-sm shadow-[#1B1833] rounded-md py-4 px-2 '>
           <div className='flex h-[200px]'>
             <img 
+            className='w-full h-full object-cover rounded-t-md'
+            src={microtask} alt="" />
+            {/* <img 
             className='w-1/2 h-full object-cover rounded-t-md'
-            src={jobPortal} alt="" />
-            <img 
-            className='w-1/2 h-full object-cover rounded-t-md'
-            src={jobPortal2} alt="" />
+            src={microworker} alt="" /> */}
           </div>
           <div className='flex flex-col gap-3 mt-5'>
-          <h3 className='font-bold text-2xl'>Job Portal Website</h3>
-          <p className='font-bold text-lg text-gray-500'>It's a Full Stack Job Portal Website.You also can login and logout to our website and also post and read articles. You create a job and also apply a job. For full
-             info visit github.</p>
-          <p className='font-bold text-xl'>Tech Used :- React; Firebase; ExpressJs; MongoDB; JWT; TailwindCss; ReactRouter</p>
+          <h3 className='font-bold text-2xl'>Micro Task & Earning Platform</h3>
+          <p className='font-bold text-lg text-gray-500'>It's a Full Stack Micro Task & Earning Platform.This platform to provide users with opportunities to complete small tasks and earn money. For full
+          info visit github.</p>
+          <p className='font-bold text-xl'>Tech Used :- React; Tailwind; ExpressJs; MongoDB; Firebase; Stripe, React Router, Axios, JWT</p>
           <div className='flex mt-14 justify-between items-center'>
             <Link
             to='https://job-portal-cb309.web.app/' 
