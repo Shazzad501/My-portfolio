@@ -38,13 +38,13 @@ const MyProject = () => {
           <p className='font-bold text-xl'>Tech Used :- React; Tailwind; ExpressJs; MongoDB; Firebase; Stripe, React Router, Axios, JWT</p>
           <div className='flex justify-between items-center'>
             <Link
-            to='https://job-portal-cb309.web.app/' 
+            to='https://multi-task-earning.web.app/' 
             target='_blank'
             className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-br from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
               <span><LuTvMinimalPlay/></span><span>Live Preview</span>
             </Link>
             <Link 
-            to='https://github.com/Shazzad501/job-portal-web'
+            to='https://github.com/Shazzad501/micro-task-earning-client'
             target='_blank'
             className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
               <span><FaGithub/></span><span>View Github</span>
@@ -76,7 +76,7 @@ const MyProject = () => {
               <span><LuTvMinimalPlay/></span><span>Live Preview</span>
             </Link>
             <Link 
-            to='https://github.com/Shazzad501/Movie-portal'
+            to='https://github.com/Shazzad501/movie-web-client'
             target='_blank'
             className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
               <span><FaGithub/></span><span>View Github</span>
@@ -104,7 +104,7 @@ const MyProject = () => {
               <span><LuTvMinimalPlay/></span><span>Live Preview</span>
             </Link>
             <Link 
-            to='https://github.com/Shazzad501/Service-client'
+            to='https://github.com/Shazzad501/Service-web-client'
             target='_blank'
             className='flex items-center gap-2 justify-center font-bold text-xl text-white btn bg-gradient-to-bl from-[#1B1833] to-[#1C325B] hover:from-[#1C325B] hover:to-[#1B1833]'>
               <span><FaGithub/></span><span>View Github</span>
