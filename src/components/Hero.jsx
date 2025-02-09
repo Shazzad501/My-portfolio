@@ -30,7 +30,7 @@ const Hero = () => {
           <a href={resume} download=''>
           <div className='flex gap-5 my-4'>
           <Link to='https://github.com/Shazzad501' target='_blank' className='font-bold text-3xl'><FaGithub/></Link>
-          <Link to='https://www.linkedin.com/in/md-maruf-162799255/' target='_blank' className='font-bold text-3xl'><FaLinkedin/></Link>
+          <Link to='https://www.linkedin.com/in/shazzad-maruf/' target='_blank' className='font-bold text-3xl'><FaLinkedin/></Link>
           <Link to='https://x.com/SMaruf3950' target='_blank' className='font-bold text-3xl'><FaTwitter/></Link>
           <Link to='mailto:assazzad501@gmail.com' target='_blank' className='font-bold text-3xl'><FaEnvelope/></Link>
         </div>
